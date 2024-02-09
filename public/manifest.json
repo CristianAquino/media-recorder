@@ -1,0 +1,16 @@
+{
+  "name": "media recorder",
+  "description": "extension for chrome that performs screen recording in any format and dimension",
+  "version": "1.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "index.html"
+  },
+  "host_permissions": ["http://*/*", "https://*/*"],
+  "icons": {
+    "16": "image/camera-16x16.png",
+    "32": "image/camera-32x32.png",
+    "70": "image/camera-70x70.png",
+    "144": "image/camera-144x144.png"
+  }
+}
